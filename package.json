@@ -1,0 +1,26 @@
+{
+  "name": "fsd_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "week-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagaSriSatti/FSD_LAB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NagaSriSatti/FSD_LAB/issues"
+  },
+  "homepage": "https://github.com/NagaSriSatti/FSD_LAB#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}

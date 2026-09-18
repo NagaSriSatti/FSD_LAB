@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h1>Week 8 - Stateful Applications</h1>
+
+<a href="/create-cookie">Create Cookie</a> |
+<a href="/read-cookie">Read Cookie</a> |
+<a href="/login">Login</a>
+
+<% if (user) { %>
+    <p>Logged in as <%= user %></p>
+    <a href="/dashboard">Dashboard</a> |
+    <a href="/logout">Logout</a>
+<% } %>
+
+</body>
+</html>
